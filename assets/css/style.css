@@ -4,22 +4,34 @@
     margin: 0;
 }
 
+/* text of whole webpage */
+p {
+    font-size: 16px;
+
+}
+
 body {
     background-color: #d9dcd6;
 }
-
+/* Header style */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
-}
+    z-index: 1;
+    position: fixed;
+    width:100%;
+    
 
+}
+/* Logo */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* the "SEO" letters in logo */
 .header h1 .seo {
     color: #03009c;
 }
@@ -32,28 +44,28 @@ body {
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    right: 0; 
+    top: 50%; 
+
 }
 
-
-
+/* navigation list */
 .header nav ul {
     list-style-type: none;
 }
-
+/* individual navigation buttons*/
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* navigation button text */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
+/* Main background image */
 .main_image {
     height: 800px;
     width: 100%;
@@ -62,6 +74,8 @@ p {
     background-size: cover;
     background-position: center;
 }
+
+/* Float controls if images appear on left or right */
 
 .float-left {
     float: left;
@@ -90,6 +104,7 @@ p {
     background-color: #2589bd;
 }
 
+/* The "benefit" section controls the right aside on the website */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -138,6 +153,7 @@ p {
     max-width: 150px;
 }
 
+/* The following 3 classes control the text in 3 main sections */
 #search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -165,17 +181,7 @@ p {
     color: #ffffff;
 }
 
-#search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
+/* Titles for sections */
 
 #search-engine-optimization h2 {
     margin-bottom: 20px;
@@ -191,6 +197,22 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/* This controls 3 images for afformentioned sections */
+
+#search-engine-optimization img {
+    max-height: 200px;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+ 
+/* Footer */
 
 .footer {
     padding: 30px;
