@@ -27,3 +27,7 @@ In terms of the CSS side, I re-organised some of the element classes and comment
 ## Acknowledgements
 
 I would like to give credit to my instructor, Abdul, as well as all the TA's and fellow students who have helped me learn how to complete this project.
+
+## Link to website:
+
+https://dustek.github.io/Horizen_SEO_Refactor/
